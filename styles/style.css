@@ -120,18 +120,32 @@ body{
     width: 50%;
 }
 .anchor{
-    text-align: center;
-    
-    
+    text-align: center;    
 }
-.anchor a{
-    
-}
+
 .anchor a img{
     width: 30px;
     margin-right: 10px;
     margin-left: 10px;
     border: none;
     margin-bottom: 50px;
+}
+#pizza-card{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
+#pizza-card .card-1 img{
+    width: 300px;
+}
+#pizza-card .card-1 button{
+    color: black;
+    font-weight: 600;
+    background: rgb(159, 245, 159);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
