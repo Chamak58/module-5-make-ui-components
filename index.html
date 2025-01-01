@@ -1,109 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Good Food Shop</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <!-- banner section -->
-     <section class="banner">
-        
-        <p class="light_text">Savor the Flavors</p>
-        <h1 class="heading">Experience Culinary Excellence <br> Food Experience</h1>
-        <p class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin 
-            <br> literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
-        <button class="btn">Shop The Hottest Food</button>
-     </section>
+    <section class="banner">
+      <p class="light_text">Savor the Flavors</p>
+      <h1 class="heading">
+        Experience Culinary Excellence <br />
+        Food Experience
+      </h1>
+      <p class="text">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin <br />
+        literature from 45 BC, making it over 2000 years old. Richard McClintock
+      </p>
+      <button onclick="discount()" class="btn">Get Discount Code</button>
+    </section>
 
-     <!-- card box section -->
-      <section class="card_box">
-        <p class="light_text_box">Favorite Brands</p>
-      <h1 class="heading_box">Your Favorite Brands Food <br> Are Now On Sale</h1>
+    <!-- card box section -->
+    <section class="card_box">
+      <p class="light_text_box">Favorite Brands</p>
+      <h1 class="heading_box">
+        Your Favorite Brands Food <br />
+        Are Now On Sale
+      </h1>
 
       <div class="all-card">
         <div class="card">
-            <img src="/assets/pizza.png" alt="">
-            
-            <button class="btn_box">Pizza Burg</button>
-            <h2>Up To 50% Off</h2>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+          <img src="/assets/pizza.png" alt="" />
+
+          <button class="btn_box">Pizza Burg</button>
+          <h2>Up To 50% Off</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+          </p>
         </div>
         <div class="card">
-            <img src="/assets/biriyani.png" alt="">
-            <button class="btn_box">Kacchi Bhai</button>
-            <h2>Up To 50% Off</h2>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+          <img src="/assets/biriyani.png" alt="" />
+          <button class="btn_box">Kacchi Bhai</button>
+          <h2>Up To 50% Off</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+          </p>
         </div>
         <div class="card">
-            <img src="/assets/burger.png" alt="">
-            <button class="btn_box">Burger King</button>
-            <h2 class="card-off">Up To 50% Off</h2>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+          <img src="/assets/burger.png" alt="" />
+          <button class="btn_box">Burger King</button>
+          <h2 class="card-off">Up To 50% Off</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+          </p>
         </div>
       </div>
       <button class="btn">Watch All Sells</button>
-      </section>
+    </section>
 
-      <!-- about us section -->
-       <section class="about-us">
-        <div class=left-img>
-            <img src="/assets/foods.png" alt="">
+    <!-- about us section -->
+    <section class="about-us">
+      <div class="left-img">
+        <img src="/assets/foods.png" alt="" />
+      </div>
+      <div class="right-content">
+        <h2 class="heading_box">
+          We always make sure to provide <br />
+          you with good food
+        </h2>
+        <p class="text">Don’t miss a thing! Subscribe to our newsletter</p>
+        <h4 class="light_text_box">Follow Us On</h4>
+        <div class="anchor">
+          <a href="https://www.facebook.com/">
+            <img src="/assets/facebook.jpeg" alt="" />
+          </a>
+          <a href="https://x.com/">
+            <img src="/assets/twitter.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/accounts/login/">
+            <img src="/assets/instagram.jpeg" alt="" />
+          </a>
+          <a href="https://www.pinterest.com/#top">
+            <img src="/assets/pinterest.png" alt="" />
+          </a>
         </div>
-        <div class="right-content">
-          <h2 class="heading_box">We always make sure to provide <br> you with good food</h2>
-          <p class="text">Don’t miss a thing! Subscribe to our newsletter</p>
-          <h4 class="light_text_box">Follow Us On</h4>
-          <div class="anchor">
-            <a href="https://www.facebook.com/">
-                <img src="/assets/facebook.jpeg" alt="">
-            </a>
-            <a href="https://x.com/">
-                <img src="/assets/twitter.png" alt="">
-            </a>
-            <a href="https://www.instagram.com/accounts/login/">
-                <img src="/assets/instagram.jpeg" alt="">
-            </a>
-            <a href="https://www.pinterest.com/#top">
-                <img src="/assets/pinterest.png" alt="">
-            </a>
-        </div>  
+      </div>
+    </section>
+    <!-- pizza card section -->
+    <section id="pizza-card">
+      <div class="card-1">
+        <img src="/assets/pizza.png" alt="" />
+        <div>
+          <button>Pizza Burg</button>
+          <h2>Up To 50% Off</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+          </p>
         </div>
-       </section>
-       <!-- pizza card section -->
-        <section id="pizza-card">
-            <div class="card-1">
-                <img src="/assets/pizza.png" alt="">
-                <div>
-                    <button>Pizza Burg</button>
-                <h2>Up To 50% Off</h2>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                </div>
-            </div>
-            <button class="btn">Watch All Sells</button>
-        </section>
-        <!-- social section -->
-         <section class="social">
-            <div class="overlay">
-                <h2 class="heading_box">We always make sure to provide <br> you with good food</h2>
-            <p class="text">Don’t miss a thing! Subscribe to our newsletter</p>
-            <h4 class="light_text_box">Follow Us On</h4>
-            <div class="anchor">
-                <a href="https://www.facebook.com/">
-                    <img src="/assets/facebook.jpeg" alt="">
-                </a>
-                <a href="https://x.com/">
-                    <img src="/assets/twitter.png" alt="">
-                </a>
-                <a href="https://www.instagram.com/accounts/login/">
-                    <img src="/assets/instagram.jpeg" alt="">
-                </a>
-                <a href="https://www.pinterest.com/#top">
-                    <img src="/assets/pinterest.png" alt="">
-                </a>
-            </div> 
-            </div>
-         </section>
-</body>
+      </div>
+      <button class="btn">Watch All Sells</button>
+    </section>
+    <!-- social section -->
+    <section class="social">
+      <div class="overlay">
+        <h2 class="heading_box">
+          We always make sure to provide <br />
+          you with good food
+        </h2>
+        <p class="text">Don’t miss a thing! Subscribe to our newsletter</p>
+        <h4 class="light_text_box">Follow Us On</h4>
+        <div class="anchor">
+          <a href="https://www.facebook.com/">
+            <img src="/assets/facebook.jpeg" alt="" />
+          </a>
+          <a href="https://x.com/">
+            <img src="/assets/twitter.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/accounts/login/">
+            <img src="/assets/instagram.jpeg" alt="" />
+          </a>
+          <a href="https://www.pinterest.com/#top">
+            <img src="/assets/pinterest.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- script tag -->
+    <script>
+      alert("Welcome to my Restaurant");
+
+      function discount() {
+        alert("Code : Winter_Pizza_34");
+      }
+    </script>
+  </body>
 </html>
